@@ -15,10 +15,11 @@
     <div class="container">
         <div class="row border-bottom">
             <div class="d-flex justify-content-between col-12 mt-2 mb-2">
-                <h2 class="mt-2">Clientes</h2>
+                <h2 class="mt-2"><span>Clientes</span></h2>
                 <button class="btn btn-primary mt-2 mb-2" type="button" data-toggle="collapse"
                     data-target="#pesquisando" aria-expanded="false" aria-controls="pesquisando"><i
-                        class="fa fa-search"></i> Pesquisar</button>
+                        class="fa fa-search"></i></button>
+                <button type="button" class="btn btn-success mt-2 mb-2"><i class="fa fa-plus"></i> Novo</button>
             </div>
         </div>
         <div class="collapse mt-3" id="pesquisando">
@@ -72,16 +73,19 @@
                     </div>
                     <div class="row mb-2 border-top">
                         <div class="d-flex justify-content-between col-12 mt-2 mb-2">
-                            <button type="submit" class="btn btn-primary mt-2"><i class="fa fa-filter"></i> Filtrar</button>
-                            <button type="button" class="btn btn-dark mt-2"><i class="fa fa-print"></i> Imprimir</button>
-                            <button type="button" class="btn btn-success mt-2"><i class="fa fa-table"></i> Exportar</button>
+                            <button type="submit" class="btn btn-primary mt-2"><i class="fa fa-filter"></i>
+                                Filtrar</button>
+                            <button type="button" class="btn btn-dark mt-2"><i class="fa fa-print"></i>
+                                Imprimir</button>
+                            <button type="button" class="btn btn-success mt-2"><i class="fa fa-table"></i>
+                                Exportar</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
         <div class="row">
-            <div class="table-responsive-sm table-striped border-bottom">
+            <div class="table-responsive table-sm table-bordered table-striped">
                 <table class="table">
                     <thead>
                         <tr>
@@ -306,9 +310,94 @@
                             <td>Mark</td>
                             <td>@mdo</td>
                         </tr>
-                    </tbody>
+                        <tr>
+                            <td>
+                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-file"></i></button>
+                                <button type="submit" class="btn btn-sm btn-danger"><i
+                                        class="fa fa-trash-alt"></i></button>
+                            </td>
+                            <th scope="row">16</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>RUA&nbsp;DESEMBARGADOR&nbsp;CANEDO,&nbsp;243</td>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-file"></i></button>
+                                <button type="submit" class="btn btn-sm btn-danger"><i
+                                        class="fa fa-trash-alt"></i></button>
+                            </td>
+                            <th scope="row">17</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>RUA&nbsp;DESEMBARGADOR&nbsp;CANEDO,&nbsp;243</td>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-file"></i></button>
+                                <button type="submit" class="btn btn-sm btn-danger"><i
+                                        class="fa fa-trash-alt"></i></button>
+                            </td>
+                            <th scope="row">18</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>RUA&nbsp;DESEMBARGADOR&nbsp;CANEDO,&nbsp;243</td>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-file"></i></button>
+                                <button type="submit" class="btn btn-sm btn-danger"><i
+                                        class="fa fa-trash-alt"></i></button>
+                            </td>
+                            <th scope="row">19</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>RUA&nbsp;DESEMBARGADOR&nbsp;CANEDO,&nbsp;243</td>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-file"></i></button>
+                                <button type="submit" class="btn btn-sm btn-danger"><i
+                                        class="fa fa-trash-alt"></i></button>
+                            </td>
+                            <th scope="row">20</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>RUA&nbsp;DESEMBARGADOR&nbsp;CANEDO,&nbsp;243</td>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>                   
                 </table>
             </div>
+            <nav aria-label="...">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 </body>
